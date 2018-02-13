@@ -27,6 +27,7 @@
 [Location](http://www.github.com/Datera/cinder-driver)
 
 #### Description
+
 The Cinder Volume Driver (CVD) is used for provisioning persistent block
 storage for a VM (or container) in an OpenStack cloud.  This differs from
 “scratch” or “ephemeral” storage that a VM will be given automatically by Nova
@@ -37,52 +38,52 @@ operations (listed below) are supported by the Datera CVD
 
 #### Features Supported
 
-    * Volume
-        * Creation
-        * Deletion
-        * Extension
-        * Clone
-        * Initialize Connection
-        * Attach
-        * Detach
-        * Manage
-        * Unmanage
-        * Manage-Get-Size
-        * List-Manageable
-        * Retype
-    * Snapshot
-        * Creation
-        * Deletion
-        * Clone
-    * Image
-        * Fast Clone
+   * Volume
+     * Creation
+     * Deletion
+     * Extension
+     * Clone
+     * Initialize Connection
+     * Attach
+     * Detach
+     * Manage
+     * Unmanage
+     * Manage-Get-Size
+     * List-Manageable
+     * Retype
+   * Snapshot
+     * Creation
+     * Deletion
+     * Clone
+   * Image
+     * Fast Clone
 
 #### Datera Specific Features
+
 These are all exposed to the client through Cinder config opts or Volume-Types
 
-    * Tenancy (Config Opt)
-    * No Tenant
-    * Manual Tenant
-    * Automatic Tenant (Disallows cloning between projects)
-    * ACLs (automatic based on VM host, should never be turned off)
-    * Storage-Placement (Volume Type)
-        * hybrid
-        * all-flash
-        * single-flash
-    * QoS (Volume Type)
-        * read_iops_max
-        * write_iops_max
-        * total_iops_max
-        * read_bw_max
-        * write_bw_max
-        * total_bw_max
-    * Data path round-robin (Volume Type)
-    * Replica Count (Volume Type)
-    * IP Pools (Volume Type)
-    * Datera Templates (Volume Type)
-    * Multipath (configured outside the driver, but the driver supports it)
-    * Request Profiling (Config Opt)
-
+   * Tenancy (Config Opt)
+   * No Tenant
+   * Manual Tenant
+   * Automatic Tenant (Disallows cloning between projects)
+   * ACLs (automatic based on VM host, should never be turned off)
+   * Storage-Placement (Volume Type)
+     * hybrid
+     * all-flash
+     * single-flash
+   * QoS (Volume Type)
+     * read_iops_max
+     * write_iops_max
+     * total_iops_max
+     * read_bw_max
+     * write_bw_max
+     * total_bw_max
+   * Data path round-robin (Volume Type)
+   * Replica Count (Volume Type)
+   * IP Pools (Volume Type)
+   * Datera Templates (Volume Type)
+   * Multipath (configured outside the driver, but the driver supports it)
+   * Request Profiling (Config Opt)
 
 ### Cinder Backup Driver
 
