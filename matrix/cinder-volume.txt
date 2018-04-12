@@ -1,0 +1,8 @@
+OpenStack Kilo|2015.1.*|kilo-special-order|kilo-special-order|2.0.*|2.2.7
+OpenStack Liberty|7.0.*|liberty-special-order|liberty-special-order|2.0.*|2.2.7
+OpenStack Mitaka|8.*.*|latest|latest|2.2.*|latest
+OpenStack Newton|9.*.*|latest|latest|2.2.*|latest
+OpenStack Ocata|10.0.*|latest|latest|2.2.*|latest
+OpenStack Pike|11.*.*|latest|latest|2.2.*|latest
+OpenStack Queens|12.0.0|latest|latest|2.2.*|latest
+OpenStack Master|latest|latest|latest|2.2.*|latest
